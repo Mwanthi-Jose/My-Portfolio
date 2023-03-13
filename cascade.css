@@ -1,0 +1,81 @@
+header{
+	max-width:100vw;
+	max-height:40vh;
+	width:98vw;
+	height:20vh;
+	background:#2B65EC;
+	border-bottom-width:10px;
+	border-bottom-color:#D22D5F;
+	border-bottom-style:solid;
+	position:relative;
+	
+}
+ul{
+	float:right;
+	margin-right:30px;
+	position:absolute;
+	right:30px;
+	top:25px;
+	
+	
+}
+li{
+	text-decoration:none;
+	display:inline;
+	padding:10px;
+}
+
+a{
+	text-decoration:none;
+	font-size:30px;
+	padding:20px;
+	color:white;
+	background:#D22D5F;
+	border-radius:20px;
+	font-family:commando;
+}
+
+a:hover{
+	background:black;
+	
+}
+
+#sec1{
+	max-width:98vw;
+	max-height:70vh;
+	width:98vw;
+	height:60vh;
+	background-image:url("val coffee.jpg");
+	background-size:98vw 60vh;
+	position:relative;
+	background-color:rgba(255,0,0,0.5);
+	
+	
+}
+#div1{
+	position:absolute;
+	top:200px;
+	
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+}
+
+h1{
+	color:red;
+}
+
+
+@media only screen and (min-width-width: 600px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+h1{
+	color:black;
+}
+}

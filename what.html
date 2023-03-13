@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+<head>
+
+<title>LearnJavaScript</title>
+
+    <script>
+	function Addition(){
+	var input1=parseInt(document.getElementById("num1").value);
+	var input2=parseInt(document.getElementById("num2").value);
+	document.getElementById("answer").value=input1+input2;
+	}
+	
+	function Subtraction(){
+	var input1=parseInt(document.getElementById("num1").value);
+	var input2=parseInt(document.getElementById("num2").value);
+	document.getElementById("answer").value=input1-input2;
+	}
+	
+	function Multiplication(){
+	var input1=parseInt(document.getElementById("num1").value);
+	var input2=parseInt(document.getElementById("num2").value);
+	document.getElementById("answer").value=input1*input2;
+	}
+	</script>
+     
+   </head>
+   <body>
+   <button type="button" onmouseover="document.getElementById('para').innerHTML='i am new'";>Click me </button>
+   </br>
+   </br>
+   </br>
+    <button type="button" onclick="document.getElementById('para').style.background='blue'";>Change </button>
+	
+	<p id="para"> Initial Info</p>
+ 
+ 
+
+   </body>
+  <body>
+  <div>
+  <table border="1">
+  <tr> <td><label>Enter First Number</label></td><td><input type="text" id="num1"/></td></tr>
+  <tr> <td><label>Enter second Number</label></td><td><input type="text" id="num2"/></td></tr>
+ <tr> <td><label> Your answer is</label></td><td><input type="text" id="answer"/></td></tr>
+ <tr><td><input type="button"value="Add" id="button1" onclick="Addition();"/>
+ 
+        <input type="button"value="subtract" id="button2" onclick="Subtraction();"/>
+		
+		        <input type="button"value="multiply" id="button3" onclick="Multiplication();"/>
+
+ 
+
+ 
+
+   </body>
+
+
+
+   </html>
